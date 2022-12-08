@@ -1,0 +1,7 @@
+book:
+  - id: 1
+    name: "book 1"
+    description: "the description of book 1"
+  - id: 2
+    name: "book 2"
+    description: "the description of book 2"
