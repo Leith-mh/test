@@ -25,6 +25,12 @@ def buildJar() {
     sh 'mvn -version'
 } 
 
+def test() {
+    echo 'Testing the application...'
+    sh 'mvn test'
+} 
+
+
 def pushToNexus() {
     echo "pushing the jar file to Nexus maven-snapshots repo..."
     sh 'mvn clean deploy -Dmaven.test.skip=true'
