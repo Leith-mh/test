@@ -32,7 +32,7 @@ pipeline {
                 }
             }
         }
-        tage("Build artifact") {
+        stage("test") {
             steps {
                 script {
                    
