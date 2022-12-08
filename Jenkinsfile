@@ -32,5 +32,13 @@ pipeline {
                 }
             }
         }
+        tage("Build artifact") {
+            steps {
+                script {
+                   
+                 gv.test()
+                }
+            }
+        }
     }
 }
